@@ -1,0 +1,30 @@
+Example: This is for Train RHEL OSPE V16
+
+[root@esc-os-tb6-aio1 ~]# openstack --version
+openstack 4.0.0
+[root@esc-os-tb6-aio1 ~]#
+[root@esc-os-tb6-aio1 ~]# nova-manage --version
+20.0.2
+[root@esc-os-tb6-aio1 ~]#
+
+NOTE:
+OpenStackClient is compatible with all currently supported OpenStack releases, it does not require maintaining a ‘Mitaka’ version to match to a Mitala-release cloud. The OpenStackClient release that was current when the corresponding OpenStack release was made is shown below:
+
+REF: https://docs.openstack.org/releasenotes/python-openstackclient/
+
+OpenStackClient Release
+=======================
+Train 4.0.0
+Stein 3.18.0
+Rocky 3.16.0
+Queens 3.14.0
+Pike 3.12.0
+Ocata 3.8.1
+Newton 3.2.0
+Mitaka 2.3.0
+Liberty 1.7.3
+Kilo 1.0.6
+Juno 0.4.1
+Icehouse0.3.1
+
+
